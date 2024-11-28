@@ -14,8 +14,17 @@ int main() {
   }
   MergeSort tab(iloscLiczb, tablica);
   tab.mergeSort(tablica, 0, iloscLiczb - 1);
+  cout << "Posortowane liczby wpisywane przez uzytkownika: ";
   tab.print(tablica, iloscLiczb);
 
+  int tablica2[100];
+  for (int i = 0; i < 100; i++) {
+    tablica2[i] = rand() % 100 - 50;
+  }
+  MergeSort tab2(100, tablica2);
+  tab2.mergeSort(tablica2, 0, 99);
+  cout << "Posortowane liczby losowe: ";
+  tab2.print(tablica2, 100);
 
   return 0;
 }
