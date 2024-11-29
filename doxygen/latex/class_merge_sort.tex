@@ -1,0 +1,102 @@
+\doxysubsection{Dokumentacja klasy Merge\+Sort}
+\hypertarget{class_merge_sort}{}\label{class_merge_sort}\index{MergeSort@{MergeSort}}
+
+
+{\ttfamily \#include $<$Merge\+Sort.\+h$>$}
+
+\doxysubsubsubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_merge_sort_a4a465496e2be3a27cdd47910515acb6d}{Merge\+Sort}} (int \mbox{\hyperlink{class_merge_sort_a4fa726789d196e248d09f2873ac694df}{size}}, int \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_merge_sort_a677b7f49b8d82aee2b3c28d403c6c455}{arr}})
+\item 
+\mbox{\hyperlink{class_merge_sort_a7140fd17b17558d9810c8e791c353909}{\texorpdfstring{$\sim$}{\string~}\+Merge\+Sort}} ()
+\item 
+void \mbox{\hyperlink{class_merge_sort_abffb669ba796b8b33a55067f1229da37}{merge}} (int \mbox{\hyperlink{class_merge_sort_a677b7f49b8d82aee2b3c28d403c6c455}{arr}}\mbox{[}$\,$\mbox{]}, int start, int srodek, int koniec)
+\item 
+void \mbox{\hyperlink{class_merge_sort_a5bccd198805b96406a197ea67bfe16af}{merge\+Sort}} (int \mbox{\hyperlink{class_merge_sort_a677b7f49b8d82aee2b3c28d403c6c455}{arr}}\mbox{[}$\,$\mbox{]}, int start, int koniec)
+\item 
+void \mbox{\hyperlink{class_merge_sort_a9e4034f9a5cd686a97e5ffa1f727e881}{print}} (int \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{class_merge_sort_a677b7f49b8d82aee2b3c28d403c6c455}{arr}}, int \mbox{\hyperlink{class_merge_sort_a4fa726789d196e248d09f2873ac694df}{size}})
+\end{DoxyCompactItemize}
+\doxysubsubsubsection*{Metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_merge_sort_a55ae6cf0736f402fc4f0db2d9326a641}{Merge\+Sort}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsubsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_merge_sort_a4fa726789d196e248d09f2873ac694df}{size}}
+\item 
+int \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_merge_sort_a677b7f49b8d82aee2b3c28d403c6c455}{arr}} = new int\mbox{[}\mbox{\hyperlink{class_merge_sort_a4fa726789d196e248d09f2873ac694df}{size}}\mbox{]}
+\item 
+int \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_merge_sort_a2a9cb13248fc51e51531520f585b0ce9}{s\+Arr}} = new int\mbox{[}\mbox{\hyperlink{class_merge_sort_a4fa726789d196e248d09f2873ac694df}{size}}\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Dokumentacja konstruktora i destruktora}
+\Hypertarget{class_merge_sort_a4a465496e2be3a27cdd47910515acb6d}\index{MergeSort@{MergeSort}!MergeSort@{MergeSort}}
+\index{MergeSort@{MergeSort}!MergeSort@{MergeSort}}
+\doxyparagraph{\texorpdfstring{MergeSort()}{MergeSort()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_merge_sort_a4a465496e2be3a27cdd47910515acb6d} 
+Merge\+Sort\+::\+Merge\+Sort (\begin{DoxyParamCaption}\item[{int}]{size}{, }\item[{int \texorpdfstring{$\ast$}{*}}]{arr}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{class_merge_sort_a7140fd17b17558d9810c8e791c353909}\index{MergeSort@{MergeSort}!````~MergeSort@{\texorpdfstring{$\sim$}{\string~}MergeSort}}
+\index{````~MergeSort@{\texorpdfstring{$\sim$}{\string~}MergeSort}!MergeSort@{MergeSort}}
+\doxyparagraph{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}MergeSort()}{\string~MergeSort()}}
+{\footnotesize\ttfamily \label{class_merge_sort_a7140fd17b17558d9810c8e791c353909} 
+Merge\+Sort\+::\texorpdfstring{$\sim$}{\string~}\+Merge\+Sort (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_merge_sort_a55ae6cf0736f402fc4f0db2d9326a641}\index{MergeSort@{MergeSort}!MergeSort@{MergeSort}}
+\index{MergeSort@{MergeSort}!MergeSort@{MergeSort}}
+\doxyparagraph{\texorpdfstring{MergeSort()}{MergeSort()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_merge_sort_a55ae6cf0736f402fc4f0db2d9326a641} 
+Merge\+Sort\+::\+Merge\+Sort (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxysubsubsection{Dokumentacja funkcji składowych}
+\Hypertarget{class_merge_sort_abffb669ba796b8b33a55067f1229da37}\index{MergeSort@{MergeSort}!merge@{merge}}
+\index{merge@{merge}!MergeSort@{MergeSort}}
+\doxyparagraph{\texorpdfstring{merge()}{merge()}}
+{\footnotesize\ttfamily \label{class_merge_sort_abffb669ba796b8b33a55067f1229da37} 
+void Merge\+Sort\+::merge (\begin{DoxyParamCaption}\item[{int}]{arr}{\mbox{[}$\,$\mbox{]}, }\item[{int}]{start}{, }\item[{int}]{srodek}{, }\item[{int}]{koniec}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_merge_sort_a5bccd198805b96406a197ea67bfe16af}\index{MergeSort@{MergeSort}!mergeSort@{mergeSort}}
+\index{mergeSort@{mergeSort}!MergeSort@{MergeSort}}
+\doxyparagraph{\texorpdfstring{mergeSort()}{mergeSort()}}
+{\footnotesize\ttfamily \label{class_merge_sort_a5bccd198805b96406a197ea67bfe16af} 
+void Merge\+Sort\+::merge\+Sort (\begin{DoxyParamCaption}\item[{int}]{arr}{\mbox{[}$\,$\mbox{]}, }\item[{int}]{start}{, }\item[{int}]{koniec}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_merge_sort_a9e4034f9a5cd686a97e5ffa1f727e881}\index{MergeSort@{MergeSort}!print@{print}}
+\index{print@{print}!MergeSort@{MergeSort}}
+\doxyparagraph{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily \label{class_merge_sort_a9e4034f9a5cd686a97e5ffa1f727e881} 
+void Merge\+Sort\+::print (\begin{DoxyParamCaption}\item[{int \texorpdfstring{$\ast$}{*}}]{arr}{, }\item[{int}]{size}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsubsection{Dokumentacja atrybutów składowych}
+\Hypertarget{class_merge_sort_a677b7f49b8d82aee2b3c28d403c6c455}\index{MergeSort@{MergeSort}!arr@{arr}}
+\index{arr@{arr}!MergeSort@{MergeSort}}
+\doxyparagraph{\texorpdfstring{arr}{arr}}
+{\footnotesize\ttfamily \label{class_merge_sort_a677b7f49b8d82aee2b3c28d403c6c455} 
+int\texorpdfstring{$\ast$}{*} Merge\+Sort\+::arr = new int\mbox{[}\mbox{\hyperlink{class_merge_sort_a4fa726789d196e248d09f2873ac694df}{size}}\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_merge_sort_a2a9cb13248fc51e51531520f585b0ce9}\index{MergeSort@{MergeSort}!sArr@{sArr}}
+\index{sArr@{sArr}!MergeSort@{MergeSort}}
+\doxyparagraph{\texorpdfstring{sArr}{sArr}}
+{\footnotesize\ttfamily \label{class_merge_sort_a2a9cb13248fc51e51531520f585b0ce9} 
+int\texorpdfstring{$\ast$}{*} Merge\+Sort\+::s\+Arr = new int\mbox{[}\mbox{\hyperlink{class_merge_sort_a4fa726789d196e248d09f2873ac694df}{size}}\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{class_merge_sort_a4fa726789d196e248d09f2873ac694df}\index{MergeSort@{MergeSort}!size@{size}}
+\index{size@{size}!MergeSort@{MergeSort}}
+\doxyparagraph{\texorpdfstring{size}{size}}
+{\footnotesize\ttfamily \label{class_merge_sort_a4fa726789d196e248d09f2873ac694df} 
+int Merge\+Sort\+::size\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/kidi/\+Desktop/\+Merge\+Sort/\mbox{\hyperlink{_merge_sort_8h}{Merge\+Sort.\+h}}\item 
+C\+:/\+Users/kidi/\+Desktop/\+Merge\+Sort/\mbox{\hyperlink{_merge_sort_8cpp}{Merge\+Sort.\+cpp}}\end{DoxyCompactItemize}

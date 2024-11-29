@@ -1,0 +1,50 @@
+\begin{theindex}
+
+  \item {\texorpdfstring{$\sim$}{\string~}MergeSort}
+    \subitem {MergeSort}, \hyperpage{2}
+
+  \indexspace
+
+  \item {arr}
+    \subitem {MergeSort}, \hyperpage{3}
+
+  \indexspace
+
+  \item {C:/Users/kidi/Desktop/MergeSort/main.cpp}, \hyperpage{3}
+  \item {C:/Users/kidi/Desktop/MergeSort/MergeSort.cpp}, \hyperpage{4}
+  \item {C:/Users/kidi/Desktop/MergeSort/MergeSort.h}, \hyperpage{4}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{4}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{4}
+  \item {merge}
+    \subitem {MergeSort}, \hyperpage{2}
+  \item {MergeSort}, \hyperpage{1}
+    \subitem {\texorpdfstring{$\sim$}{\string~}MergeSort}, 
+		\hyperpage{2}
+    \subitem {arr}, \hyperpage{3}
+    \subitem {merge}, \hyperpage{2}
+    \subitem {MergeSort}, \hyperpage{2}
+    \subitem {mergeSort}, \hyperpage{2}
+    \subitem {print}, \hyperpage{3}
+    \subitem {sArr}, \hyperpage{3}
+    \subitem {size}, \hyperpage{3}
+  \item {mergeSort}
+    \subitem {MergeSort}, \hyperpage{2}
+
+  \indexspace
+
+  \item {print}
+    \subitem {MergeSort}, \hyperpage{3}
+
+  \indexspace
+
+  \item {sArr}
+    \subitem {MergeSort}, \hyperpage{3}
+  \item {size}
+    \subitem {MergeSort}, \hyperpage{3}
+
+\end{theindex}
