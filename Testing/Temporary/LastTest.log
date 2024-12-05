@@ -1,0 +1,354 @@
+Start testing: Dec 05 16:34 CET
+----------------------------------------------------------
+1/13 Testing: SortArrayTest.AlreadySortedArray
+1/13 Test: SortArrayTest.AlreadySortedArray
+Command: "/mnt/c/Users/kidi/Desktop/MergeSort/build/test/runTests" "--gtest_filter=SortArrayTest.AlreadySortedArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/kidi/Desktop/MergeSort
+"SortArrayTest.AlreadySortedArray" start time: Dec 05 16:34 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SortArrayTest.AlreadySortedArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortArrayTest
+[ RUN      ] SortArrayTest.AlreadySortedArray
+Running AlreadySortedArray test
+[       OK ] SortArrayTest.AlreadySortedArray (0 ms)
+[----------] 1 test from SortArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SortArrayTest.AlreadySortedArray" end time: Dec 05 16:34 CET
+"SortArrayTest.AlreadySortedArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/13 Testing: SortArrayTest.ReverseSortedArray
+2/13 Test: SortArrayTest.ReverseSortedArray
+Command: "/mnt/c/Users/kidi/Desktop/MergeSort/build/test/runTests" "--gtest_filter=SortArrayTest.ReverseSortedArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/kidi/Desktop/MergeSort
+"SortArrayTest.ReverseSortedArray" start time: Dec 05 16:34 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SortArrayTest.ReverseSortedArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortArrayTest
+[ RUN      ] SortArrayTest.ReverseSortedArray
+Running ReverseSortedArray test
+[       OK ] SortArrayTest.ReverseSortedArray (0 ms)
+[----------] 1 test from SortArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SortArrayTest.ReverseSortedArray" end time: Dec 05 16:34 CET
+"SortArrayTest.ReverseSortedArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/13 Testing: SortArrayTest.SingleElementArray
+3/13 Test: SortArrayTest.SingleElementArray
+Command: "/mnt/c/Users/kidi/Desktop/MergeSort/build/test/runTests" "--gtest_filter=SortArrayTest.SingleElementArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/kidi/Desktop/MergeSort
+"SortArrayTest.SingleElementArray" start time: Dec 05 16:34 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SortArrayTest.SingleElementArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortArrayTest
+[ RUN      ] SortArrayTest.SingleElementArray
+Running SingleElementArray test
+[       OK ] SortArrayTest.SingleElementArray (0 ms)
+[----------] 1 test from SortArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SortArrayTest.SingleElementArray" end time: Dec 05 16:34 CET
+"SortArrayTest.SingleElementArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/13 Testing: SortArrayTest.RepeatedElementsArray
+4/13 Test: SortArrayTest.RepeatedElementsArray
+Command: "/mnt/c/Users/kidi/Desktop/MergeSort/build/test/runTests" "--gtest_filter=SortArrayTest.RepeatedElementsArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/kidi/Desktop/MergeSort
+"SortArrayTest.RepeatedElementsArray" start time: Dec 05 16:34 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SortArrayTest.RepeatedElementsArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortArrayTest
+[ RUN      ] SortArrayTest.RepeatedElementsArray
+Running RepeatedElementsArray test
+[       OK ] SortArrayTest.RepeatedElementsArray (0 ms)
+[----------] 1 test from SortArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SortArrayTest.RepeatedElementsArray" end time: Dec 05 16:34 CET
+"SortArrayTest.RepeatedElementsArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/13 Testing: SortArrayTest.EmptyArray
+5/13 Test: SortArrayTest.EmptyArray
+Command: "/mnt/c/Users/kidi/Desktop/MergeSort/build/test/runTests" "--gtest_filter=SortArrayTest.EmptyArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/kidi/Desktop/MergeSort
+"SortArrayTest.EmptyArray" start time: Dec 05 16:34 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SortArrayTest.EmptyArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortArrayTest
+[ RUN      ] SortArrayTest.EmptyArray
+Running EmptyArray test
+[       OK ] SortArrayTest.EmptyArray (0 ms)
+[----------] 1 test from SortArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SortArrayTest.EmptyArray" end time: Dec 05 16:34 CET
+"SortArrayTest.EmptyArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/13 Testing: SortArrayTest.NegativeNumbersArray
+6/13 Test: SortArrayTest.NegativeNumbersArray
+Command: "/mnt/c/Users/kidi/Desktop/MergeSort/build/test/runTests" "--gtest_filter=SortArrayTest.NegativeNumbersArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/kidi/Desktop/MergeSort
+"SortArrayTest.NegativeNumbersArray" start time: Dec 05 16:34 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SortArrayTest.NegativeNumbersArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortArrayTest
+[ RUN      ] SortArrayTest.NegativeNumbersArray
+Running NegativeNumbersArray test
+[       OK ] SortArrayTest.NegativeNumbersArray (0 ms)
+[----------] 1 test from SortArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SortArrayTest.NegativeNumbersArray" end time: Dec 05 16:34 CET
+"SortArrayTest.NegativeNumbersArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/13 Testing: SortArrayTest.MixedNegativePositiveArray
+7/13 Test: SortArrayTest.MixedNegativePositiveArray
+Command: "/mnt/c/Users/kidi/Desktop/MergeSort/build/test/runTests" "--gtest_filter=SortArrayTest.MixedNegativePositiveArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/kidi/Desktop/MergeSort
+"SortArrayTest.MixedNegativePositiveArray" start time: Dec 05 16:34 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SortArrayTest.MixedNegativePositiveArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortArrayTest
+[ RUN      ] SortArrayTest.MixedNegativePositiveArray
+Running MixedNegativePositiveArray test
+[       OK ] SortArrayTest.MixedNegativePositiveArray (0 ms)
+[----------] 1 test from SortArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SortArrayTest.MixedNegativePositiveArray" end time: Dec 05 16:34 CET
+"SortArrayTest.MixedNegativePositiveArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/13 Testing: SortArrayTest.DuplicatesArray
+8/13 Test: SortArrayTest.DuplicatesArray
+Command: "/mnt/c/Users/kidi/Desktop/MergeSort/build/test/runTests" "--gtest_filter=SortArrayTest.DuplicatesArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/kidi/Desktop/MergeSort
+"SortArrayTest.DuplicatesArray" start time: Dec 05 16:34 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SortArrayTest.DuplicatesArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortArrayTest
+[ RUN      ] SortArrayTest.DuplicatesArray
+Running DuplicatesArray test
+[       OK ] SortArrayTest.DuplicatesArray (0 ms)
+[----------] 1 test from SortArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SortArrayTest.DuplicatesArray" end time: Dec 05 16:34 CET
+"SortArrayTest.DuplicatesArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/13 Testing: SortArrayTest.NegativeDuplicatesArray
+9/13 Test: SortArrayTest.NegativeDuplicatesArray
+Command: "/mnt/c/Users/kidi/Desktop/MergeSort/build/test/runTests" "--gtest_filter=SortArrayTest.NegativeDuplicatesArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/kidi/Desktop/MergeSort
+"SortArrayTest.NegativeDuplicatesArray" start time: Dec 05 16:34 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SortArrayTest.NegativeDuplicatesArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortArrayTest
+[ RUN      ] SortArrayTest.NegativeDuplicatesArray
+Running NegativeDuplicatesArray test
+[       OK ] SortArrayTest.NegativeDuplicatesArray (0 ms)
+[----------] 1 test from SortArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SortArrayTest.NegativeDuplicatesArray" end time: Dec 05 16:34 CET
+"SortArrayTest.NegativeDuplicatesArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/13 Testing: SortArrayTest.MixedDuplicatesArray
+10/13 Test: SortArrayTest.MixedDuplicatesArray
+Command: "/mnt/c/Users/kidi/Desktop/MergeSort/build/test/runTests" "--gtest_filter=SortArrayTest.MixedDuplicatesArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/kidi/Desktop/MergeSort
+"SortArrayTest.MixedDuplicatesArray" start time: Dec 05 16:34 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SortArrayTest.MixedDuplicatesArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortArrayTest
+[ RUN      ] SortArrayTest.MixedDuplicatesArray
+Running MixedDuplicatesArray test
+[       OK ] SortArrayTest.MixedDuplicatesArray (0 ms)
+[----------] 1 test from SortArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SortArrayTest.MixedDuplicatesArray" end time: Dec 05 16:34 CET
+"SortArrayTest.MixedDuplicatesArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/13 Testing: SortArrayTest.TwoElementsArray
+11/13 Test: SortArrayTest.TwoElementsArray
+Command: "/mnt/c/Users/kidi/Desktop/MergeSort/build/test/runTests" "--gtest_filter=SortArrayTest.TwoElementsArray" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/kidi/Desktop/MergeSort
+"SortArrayTest.TwoElementsArray" start time: Dec 05 16:34 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SortArrayTest.TwoElementsArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortArrayTest
+[ RUN      ] SortArrayTest.TwoElementsArray
+Running TwoElementsArray test
+[       OK ] SortArrayTest.TwoElementsArray (0 ms)
+[----------] 1 test from SortArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SortArrayTest.TwoElementsArray" end time: Dec 05 16:34 CET
+"SortArrayTest.TwoElementsArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/13 Testing: SortArrayTest.LargeArrayOver100
+12/13 Test: SortArrayTest.LargeArrayOver100
+Command: "/mnt/c/Users/kidi/Desktop/MergeSort/build/test/runTests" "--gtest_filter=SortArrayTest.LargeArrayOver100" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/kidi/Desktop/MergeSort
+"SortArrayTest.LargeArrayOver100" start time: Dec 05 16:34 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SortArrayTest.LargeArrayOver100
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortArrayTest
+[ RUN      ] SortArrayTest.LargeArrayOver100
+Running LargeArrayOver100 test
+[       OK ] SortArrayTest.LargeArrayOver100 (0 ms)
+[----------] 1 test from SortArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SortArrayTest.LargeArrayOver100" end time: Dec 05 16:34 CET
+"SortArrayTest.LargeArrayOver100" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/13 Testing: SortArrayTest.LargeMixedArrayOver100
+13/13 Test: SortArrayTest.LargeMixedArrayOver100
+Command: "/mnt/c/Users/kidi/Desktop/MergeSort/build/test/runTests" "--gtest_filter=SortArrayTest.LargeMixedArrayOver100" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/kidi/Desktop/MergeSort
+"SortArrayTest.LargeMixedArrayOver100" start time: Dec 05 16:34 CET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SortArrayTest.LargeMixedArrayOver100
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SortArrayTest
+[ RUN      ] SortArrayTest.LargeMixedArrayOver100
+Running LargeMixedArrayOver100 test
+[       OK ] SortArrayTest.LargeMixedArrayOver100 (0 ms)
+[----------] 1 test from SortArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SortArrayTest.LargeMixedArrayOver100" end time: Dec 05 16:34 CET
+"SortArrayTest.LargeMixedArrayOver100" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 05 16:34 CET

@@ -1,0 +1,16 @@
+SortArrayTest.AlreadySortedArray 5 0.00482832
+SortArrayTest.ReverseSortedArray 5 0.0047519
+SortArrayTest.SingleElementArray 5 0.00469205
+SortArrayTest.RepeatedElementsArray 5 0.00476318
+SortArrayTest.EmptyArray 8 0.00299145
+SortArrayTest.RandomArray 4 0.00591672
+SortArrayTest.LargeArray 4 0.00598077
+SortArrayTest.NegativeNumbersArray 2 0.0118317
+SortArrayTest.MixedNegativePositiveArray 2 0.0118935
+SortArrayTest.DuplicatesArray 2 0.0117163
+SortArrayTest.NegativeDuplicatesArray 2 0.0117974
+SortArrayTest.MixedDuplicatesArray 2 0.0118826
+SortArrayTest.TwoElementsArray 2 0.0119228
+SortArrayTest.LargeArrayOver100 2 0.011773
+SortArrayTest.LargeMixedArrayOver100 2 0.0117605
+---

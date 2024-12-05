@@ -3,8 +3,10 @@
 
 using namespace std;
 
+MergeSort::MergeSort(int size, int* arr) : size(size), arr(arr), sArr(new int[size]) {};
+
 MergeSort::~MergeSort() {
-    delete[] arr;
+    delete[] sArr;
 }
 
 void MergeSort::print(int* arr, int size) {
