@@ -3,14 +3,14 @@
 
 /**
  * @class MergeSort
- * @brief Klasa implementująca algorytm sortowania przez scalanie (MergeSort).
+ * @brief Klasa implementujaca algorytm sortowania przez scalanie (MergeSort).
  */
 class MergeSort {
     public:
     /**
      * @brief Konstruktor klasy MergeSort.
      * @param size Rozmiar tablicy do posortowania.
-     * @param arr Wskaźnik na tablicę do posortowania.
+     * @param arr Wskaznik na tablice do posortowania.
      */
     MergeSort(int size, int* arr);
 
@@ -20,37 +20,37 @@ class MergeSort {
     ~MergeSort();
 
     /**
-     * @brief Funkcja scalająca dwie posortowane części tablicy.
-     * @param arr Wskaźnik na tablicę do posortowania.
-     * @param start Indeks początkowy pierwszej części tablicy.
-     * @param srodek Indeks końcowy pierwszej części tablicy.
-     * @param koniec Indeks końcowy drugiej części tablicy.
+     * @brief Funkcja scalajaca dwie posortowane czesci tablicy.
+     * @param arr Wskaznik na tablice do posortowania.
+     * @param start Indeks poczatkowy pierwszej czesci tablicy.
+     * @param srodek Indeks koncowy pierwszej czesci tablicy.
+     * @param koniec Indeks koncowy drugiej czesci tablicy.
      */
     void merge(int arr[], int start, int srodek, int koniec);
 
     /**
-     * @brief Funkcja rekurencyjnie sortująca tablicę metodą sortowania przez scalanie.
-     * @param arr Wskaźnik na tablicę do posortowania.
-     * @param start Indeks początkowy tablicy.
-     * @param koniec Indeks końcowy tablicy.
+     * @brief Funkcja rekurencyjnie sortujaca tablice metoda sortowania przez scalanie.
+     * @param arr Wskaznik na tablice do posortowania.
+     * @param start Indeks poczatkowy tablicy.
+     * @param koniec Indeks koncowy tablicy.
      */
     void mergeSort(int arr[], int start, int koniec);
 
     /**
-     * @brief Funkcja wypisująca zawartość tablicy.
-     * @param arr Wskaźnik na tablicę do wypisania.
+     * @brief Funkcja wypisujaca zawartosc tablicy.
+     * @param arr Wskaznik na tablice do wypisania.
      * @param size Rozmiar tablicy.
      */
     void print(int* arr, int size);
 
     private:
     /**
-     * @brief Prywatny konstruktor domyślny klasy MergeSort.
-     * @note Konstruktor jest prywatny, aby uniemożliwić tworzenie obiektów bez parametrów.
+     * @brief Prywatny konstruktor domyslny klasy MergeSort.
+     * @note Konstruktor jest prywatny, aby uniemozliwic tworzenie obiektow bez parametrow.
      */
     MergeSort();
 
     int size; ///< Rozmiar tablicy.
-    int* arr; ///< Wskaźnik na tablicę do posortowania.
-    int* sArr; ///< Wskaźnik na pomocniczą tablicę używaną podczas scalania.
+    int* arr; ///< Wskaznik na tablice do posortowania.
+    int* sArr; ///< Wskaznik na pomocnicza tablice uzywana podczas scalania.
 };
